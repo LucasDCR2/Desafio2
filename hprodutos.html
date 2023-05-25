@@ -1,0 +1,50 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="jdados.js"></script>
+  <script src="jsessao.js"></script>
+  <title>Página de Produtos</title>
+</head>
+
+<body>
+  <div class="limiter">
+    <div class="containerProdutos" style="background-image: url('images/bg-01.jpg');">
+      <div class="produto">
+        <div class="cabeca">
+            <button id="finalizar" class="voltarBTN">Finalizar sessão</button>
+            <h2 class="cabecalho">PRODUTOS</h2>
+        </div>
+        
+        <div class="produtos">
+          <div class="produto-item">
+            <img src="images/interXimply.jpg" alt="Product 1">
+            <h3 class="produto-titulo">Amistoso</h3>
+            <p class="produto-descricao" id="apre0"></p>
+            <p class="produto-preco" id="data0"></p>
+            <button onclick="produto1()" id="comprar1" class="loginBTN">Comprar</button> 
+          </div>
+          
+          <div class="produto-item">
+            <img src="images/intexpalmeiras.jpg" alt="Product 2">
+            <h3 class="produto-titulo">Brasileirão</h3>
+            <p class="produto-descricao" id="apre4"></p>
+            <p class="produto-preco" id="data4"></p>
+            <button onclick="produto2()" id="comprar2" class="loginBTN">Comprar</button>
+          </div>
+          
+          <div class="produto-item">
+            <img class = "imagemBM" src="images/brunoEmarrone.jpg" alt="Product 3">
+            <h3 class="produto-titulo">Show</h3>
+            <p class="produto-descricao" id="apre6"></p>
+            <p class="produto-preco" id="data6"></p>
+            <button onclick="produto3()" id="comprar3" class="loginBTN">Comprar</button>
+          </div>
+          <div class="divCarrinho"><button onclick="carrinho()" id="btnCarrinho" class="carrinhoBTN">Ir para o carrinho</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="jdados.js"></script>
+  <script src="jredirecionamento.js"></script>
+  <script src="jsessao.js"></script>
+</body>
+</html>
